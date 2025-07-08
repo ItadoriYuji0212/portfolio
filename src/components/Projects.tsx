@@ -10,12 +10,12 @@ const Projects = () => {
     {
       id: 1,
       title: "Mermaid Studio",
-      description: "An mermaid diagram and slideshow generator and exporter using Artificial Intelligence.",
-      tags: ["React.js", "Tailwind CSS", "Groq API"],
-      category: "website",
-      imageSrc: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?...",
+      description: "A mermaid diagram and slideshow generator - exporter using Artificial Intelligence.",
+      tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "Groq API"],
+      category: "webapp",
+      imageSrc: "/img/mermaid_full.png",
       detailsUrl: "https://github.com/your-profile/portfolio",
-      liveDemoUrl: "https://yourportfolio.live",
+      liveDemoUrl: "https://mermaid-studio-hitarth.vercel.app/",
     },
     {
       id: 2,

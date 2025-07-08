@@ -13,7 +13,7 @@ const Achievements = () => {
     {
       platform: "Codeforces",
       username: "Hitarth_Thakkar",
-      stats: "Rating : 1426, Specialist @Codeforces",
+      stats: "Rating : 1426, Specialist, 400+ Problems Solved",
       rank: "1426, Specialist",
       url: "https://codeforces.com/profile/Hitarth_Thakkar",
     },
