@@ -46,8 +46,8 @@ const Hero = () => {
 
           <div className="max-w-2xl mx-auto mb-10">
             <p className="text-gray-300 text-lg">
-            Final-year B.Tech-CSE student at IIIT Vadodara, passionate about building scalable, efficient software systems.
-            Aspiring to solve real-world challenges through code.
+              Final-year B.Tech-CSE student at IIIT Vadodara, passionate about building scalable, efficient software systems.
+              Aspiring to solve real-world challenges through code.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ const Hero = () => {
               asChild
               className="bg-portfolio-primary hover:bg-portfolio-accent text-white py-2 px-6 rounded-md"
             >
-              <a href="https://drive.google.com/file/d/1GKM8t81jsPVYSpVJWygqUxGDNLbPRr10/view?usp=drive_link">My Resume</a>
+              <a href="https://drive.google.com/file/d/1GtiQNKLnqpja3nLoI8SavjVn5_HvZwCB/view?usp=sharing">My Resume</a>
             </Button>
 
             <Button
