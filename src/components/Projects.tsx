@@ -14,38 +14,38 @@ const Projects = () => {
       tags: ["React", "TypeScript", "Vite", "Tailwind CSS", "Groq API"],
       category: "webapp",
       imageSrc: "/img/mermaid_full.png",
-      detailsUrl: "https://github.com/your-profile/portfolio",
+      detailsUrl: "https://github.com/HitarthThakkar/mermaid-studio",
       liveDemoUrl: "https://mermaid-studio-hitarth.vercel.app/",
     },
     {
       id: 2,
       title: "ChatPDF_AI",
-      description: "A responsive portfolio website of mine using Vite, ReactJS and Tailwind CSS.",
-      tags: ["Vite", "React.js", "Tailwind CSS", "Responsive"],
-      category: "website",
-      imageSrc: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?...",
-      detailsUrl: "https://github.com/your-profile/portfolio",
-      liveDemoUrl: "https://yourportfolio.live",
+      description: "PDF-based QA system using LangChain and Gemini API using RAG.",
+      tags: ["Python", "Streamlit", "LangChain", "Google Gemini API", "RAG"],
+      category: "webapp",
+      imageSrc: "/img/chatpdf.png",
+      detailsUrl: "https://github.com/HitarthThakkar/chatpdf-ai",
+      liveDemoUrl: "https://chatpdf-ai-hitarth-thakkar.streamlit.app/",
     },
     {
       id: 3,
       title: "AlphaMinusOne",
-      description: "A responsive portfolio website of mine using Vite, ReactJS and Tailwind CSS.",
-      tags: ["Vite", "React.js", "Tailwind CSS", "Responsive"],
-      category: "website",
-      imageSrc: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?...",
-      detailsUrl: "https://github.com/your-profile/portfolio",
-      liveDemoUrl: "https://yourportfolio.live",
+      description: "Advanced AI chess engine, featuring a playing strength of up to 2000 ELO.",
+      tags: ["Python", "PyGame", "NumPy", "Conventional AI Algorithms", "AI-as-Search"],
+      category: "game",
+      imageSrc: "/img/chess.png",
+      detailsUrl: "https://drive.google.com/file/d/1NWVfKKY7_NE9MqD0ZJE88GRehnAYa8ae/view?usp=sharing",
+      liveDemoUrl: "https://drive.google.com/file/d/1NWVfKKY7_NE9MqD0ZJE88GRehnAYa8ae/view?usp=sharing",
     },
     {
       id: 4,
       title: "BookBliss",
-      description: "A responsive portfolio website of mine using Vite, ReactJS and Tailwind CSS.",
-      tags: ["Vite", "React.js", "Tailwind CSS", "Responsive"],
+      description: "Comprehensive e-commerce platform for online book shopping.",
+      tags: ["PHP", "MySQL", "JS", "HTML", "CSS"],
       category: "website",
-      imageSrc: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?...",
-      detailsUrl: "https://github.com/your-profile/portfolio",
-      liveDemoUrl: "https://yourportfolio.live",
+      imageSrc: "/img/bliss.png",
+      // detailsUrl: "https://github.com/your-profile/portfolio",
+      liveDemoUrl: "https://bookbliss.infinityfreeapp.com/",
     },
     {
       id: 5,
@@ -53,16 +53,16 @@ const Projects = () => {
       description: "Realtime chat application with chat room creation functionality using React.",
       tags: ["NodeJS", "ReactJS", "Axios", "Chatengine.io"],
       category: "webapp",
-      imageSrc: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?...",
+      imageSrc: "/img/chat.png",
       detailsUrl: "https://github.com/HitarthThakkar/realtime-chat-v1",
     },
     {
       id: 6,
       title: "SnowCoverNet",
-      description: "A responsive portfolio website of mine using Vite, ReactJS and Tailwind CSS.",
-      tags: ["Vite", "React.js", "Tailwind CSS", "Responsive"],
-      category: "webapp",
-      imageSrc: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?...",
+      description: "A model that can look at satellite images and decide which areas have snow and which don't.",
+      tags: ["U-Net Arch", "DL", "Python", "Jupyter Notebook"],
+      category: "other",
+      imageSrc: "/img/snow.png",
       detailsUrl: "https://github.com/HitarthThakkar/snow-cover-mapping",
     },
     {
@@ -71,8 +71,8 @@ const Projects = () => {
       description: "A responsive portfolio website of mine using Vite, ReactJS and Tailwind CSS.",
       tags: ["Vite", "React.js", "Tailwind CSS", "Responsive"],
       category: "website",
-      imageSrc: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?...",
-      detailsUrl: "#",
+      imageSrc: "/img/download.png",
+      // detailsUrl: "#",
       liveDemoUrl: "#",
     },
     {
@@ -82,8 +82,6 @@ const Projects = () => {
       tags: ["JavaScript", "API Integration", "CSS3"],
       category: "webapp",
       imageSrc: "https://images.unsplash.com/photo-1505935428862-770b6f24f629?...",
-      detailsUrl: "#",
-      liveDemoUrl: "#",
     },
     {
       id: 9,
@@ -92,8 +90,6 @@ const Projects = () => {
       tags: ["TypeScript", "Chart.js", "REST API"],
       category: "webapp",
       imageSrc: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?...",
-      detailsUrl: "#",
-      liveDemoUrl: "#",
     }
   ];
 
@@ -202,7 +198,7 @@ const Projects = () => {
 
         <div className="mt-10 text-center">
           <a
-            href="#"
+            href="https://github.com/HitarthThakkar"
             className="inline-block px-6 py-2 rounded-md bg-portfolio-primary dark:bg-portfolio-primary hover:bg-portfolio-accent dark:hover:bg-portfolio-accent light:bg-light-accent light:hover:bg-light-accent/80 text-white font-medium"
           >
             View All Projects
